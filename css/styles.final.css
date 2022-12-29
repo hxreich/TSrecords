@@ -16,7 +16,9 @@ h1 {display:none}
 .songs {padding-top:1%;list-style:decimal}
 .song {padding:2px 0;}
 .song-name {width:30%;display:inline-block;vertical-align:top}
-.song-length {width:25%;display:inline-block}
+.song-length {width:10%;display:inline-block}
+.song-key {display:inline-block;width:10%;}
+.song-chord-progression {display:inline-block;width:15%;}
 
 @media screen AND (max-width:800px) {
     .record-cover {float:none;width:100%}
