@@ -8,11 +8,12 @@ h1 {display:none}
 .record {display:block;clear:both;float:none;margin:10px;overflow:hidden}
 .record-cover {float:left;width:25%}
 .record-cover img {width:300px}
-.record-info {margin-left:305px}
-.record-release-year {border-bottom:1px solid black}
-.record-title {text-transform:uppercase}
-.songs {padding-top:1%}
-.song-name {width:25%;display:inline-block}
+.record-info {margin-left:363px}
+.record-release-year {border-bottom:1px solid black;margin:6px 0;padding-bottom:6px}
+.record-title {/*text-transform:uppercase*/}
+.songs {padding-top:1%;list-style:decimal}
+.song {padding:2px 0;}
+.song-name {width:30%;display:inline-block;vertical-align:top}
 .song-length {width:25%;display:inline-block}
 
 @media screen AND (max-width:800px) {
