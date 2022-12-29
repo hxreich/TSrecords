@@ -5,7 +5,7 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 header {background-color:darkkhaki;padding:15px}
 body {font-family:Arial,Helvetica,sans-serif;margin:0;padding:0}
 h1 {display:none}
-.record {display:block;clear:both;float:none;margin-bottom:25px;overflow:hidden}
+.record {display:block;clear:both;float:none;margin:10px;overflow:hidden}
 .record-cover {float:left;width:25%}
 .record-cover img {width:300px}
 .record-info {margin-left:305px}
