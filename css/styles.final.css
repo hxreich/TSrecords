@@ -1,0 +1,18 @@
+body {font-family:Arial, Helvetica, sans-serif}
+h1 {display:none}
+.record {display:block;clear:both;float:none;margin-bottom:25px;overflow:hidden;}
+.record-cover {float:left;width:25%}
+.record-cover img {width:300px}
+.record-info {margin-left: 305px;}
+.record-release-year {border-bottom:1px solid black}
+.record-title {text-transform: uppercase;}
+.songs {padding-top: 1%;}
+.song-name {width:25%;display:inline-block}
+.song-length {width:25%;display:inline-block}
+
+
+@media screen AND (max-width:800px) {
+    .record-cover {float:none;width:100%}
+    .record-cover img {}
+    .record-info {width:100%;margin-left:0}
+}
