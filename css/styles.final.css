@@ -2,15 +2,17 @@
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video{margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block}body{line-height: 1}ol, ul{list-style: none}blockquote, q{quotes: none}blockquote:before, blockquote:after,q:before, q:after{content: '';content: none}table{border-collapse: collapse;border-spacing: 0}
 
 /* hailey-style */
-header {background-color:darkkhaki;padding:15px}
+header {background-color:darkkhaki;padding:15px;position:fixed;left:0;width:100%;top:0}
+main {margin-top:60px}
 body {font-family:Arial,Helvetica,sans-serif;margin:0;padding:0}
 h1 {display:none}
-.record {display:block;clear:both;float:none;margin:10px;overflow:hidden}
+.record {display:block;clear:both;float:none;margin:10px;overflow:hidden;padding:15px;background-color:aliceblue;margin:15px}
+.record-title {font-size:1.5rem}
 .record-cover {float:left;width:25%}
 .record-cover img {width:300px}
 .record-info {margin-left:363px}
 .record-release-year {border-bottom:1px solid black;margin:6px 0;padding-bottom:6px}
-.record-title {/*text-transform:uppercase*/}
+/*.record-title {} */
 .songs {padding-top:1%;list-style:decimal}
 .song {padding:2px 0;}
 .song-name {width:30%;display:inline-block;vertical-align:top}
@@ -18,6 +20,6 @@ h1 {display:none}
 
 @media screen AND (max-width:800px) {
     .record-cover {float:none;width:100%}
-    .record-cover img {}
+/*    .record-cover img {} */
     .record-info {width:100%;margin-left:0}
 }
