@@ -3,8 +3,23 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.final.css">
+        <script lang="JavaScript">
+            function sortRecords(dir) {
+                tElements=document.getElementsByClassName('.record');
+                if (dir='alpha') {
+                    tElements.forEach(  function(element) {
+                        // do something here to each of the 'elements' that have a classname of 'record'
+                        element.appendClass('highlight');
+                        element.removeClass('somethingtoremove');
+                    });
+                } 
+            }
+        </script>
     </head>
     <body>
+        <header>
+            Hailey's Favorite Artist
+        </header>
         <main>
             <h1>taylor swift records</h1>
             <ul class="records">
