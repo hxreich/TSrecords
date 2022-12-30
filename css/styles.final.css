@@ -22,8 +22,43 @@ h1 {display:none}
 .heading {list-style:none;padding-bottom:.5rem}
 
 
+@media screen AND (max-width:900px) {
+    .songs {padding-top:1%;list-style:decimal}
+    .song {padding:10px 0;}
+    .song-name {width:55%;display:inline-block;vertical-align:top}
+    .song-length {width:10%;display:none;text-align:center}
+    .song-key {display:inline-block;width:10%;text-align:center}
+    .song-chord-progression {display:inline-block;width:25%;text-align:center}
+    .heading {visibility:hidden;height:0;list-style:none;padding-bottom:.5rem}
+}
+
 @media screen AND (max-width:800px) {
     .record-cover {float:none;width:100%}
 /*    .record-cover img {} */
     .record-info {width:100%;margin-left:0}
 }
+
+@media screen AND (max-width:550px) {
+    .record {display:block;clear:both;float:none;margin:10px;overflow:hidden;padding:40px;background-color:aliceblue;margin:15px}
+    /*.record-title {} */
+    .songs {padding-top:1%;list-style:decimal}
+    .song {padding:10px 0;}
+    .song-name {width:55%;display:inline-block;vertical-align:top}
+    .song-length {width:10%;display:none;text-align:center}
+    .song-key {display:inline-block;width:10%;text-align:center}
+    .song-chord-progression {display:inline-block;width:25%;text-align:center}
+    .heading {visibility:hidden;height:0;list-style:none;padding-bottom:.5rem}
+}
+
+@media screen AND (max-width:420px) {
+    /*.record-title {} */
+    .songs {padding-top:1%;padding-left:8%;list-style:decimal}
+    .song {padding:10px 0;}
+    .song-name {width:95%;display:inline-block;vertical-align:top}
+    .song-length {display:none}
+    .song-key {display:block;width:85%;text-align:left}
+    .song-chord-progression {display:block;width:85%;text-align:left}
+    .heading {visibility:hidden;height:0;list-style:none}
+    .record-cover img {width:100%}
+}
+
